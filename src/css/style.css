@@ -13,6 +13,7 @@ html {
 .wrap {
   margin: 0 auto;
   width: 80%;
+  max-width: 1200px;
 }
 
 /* navbar */
@@ -44,7 +45,7 @@ ul a {
   color: #e5e7eb;
 }
 /* navbar */
-/* hero */
+/* Hero section */
 .hero {
   display: flex;
   gap: 50px;
@@ -86,3 +87,45 @@ ul a {
   justify-content: center;
   align-items: center;
 }
+/* Hero section */
+/* Information section */
+.information {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 30vh;
+}
+
+.information h2 {
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
+  margin-top: 30px;
+}
+
+.rects {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 60%;
+  gap: 10px;
+}
+
+.rect {
+  display: flex;
+  max-width: 150px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.rect .small-img {
+  border: 3px solid #3882f6;
+  width: 120px;
+  height: 120px;
+  border-radius: 10px;
+}
+/* Information section */
