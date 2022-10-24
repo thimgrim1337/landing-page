@@ -60,24 +60,25 @@ ul a {
   align-items: flex-start;
 }
 
-.content h1 {
+.hero .content h1 {
   font-size: 48px;
   font-weight: 900;
   color: #f9faf8;
 }
 
-.content p {
+.hero .content p {
   font-size: 18px;
   color: #e5e7eb;
 }
 
-.content button {
+.hero .content button {
   padding: 10px 30px;
   color: white;
   background-color: #3882f6;
   text-transform: uppercase;
   font-weight: bold;
   border: none;
+  border-radius: 5px;
 }
 
 .hero-img {
@@ -133,7 +134,7 @@ ul a {
 /* Quote section */
 .quote {
   background-color: #e5e7eb;
-  min-height: 25vh;
+  min-height: 30vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -154,3 +155,35 @@ ul a {
 }
 /* Quote section */
 /* Call to action */
+.call-action {
+  min-height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.blue-box {
+  background-color: #3882f6;
+  width: 70%;
+  height: 10vh;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.blue-box .content h3 {
+  color: white;
+}
+
+.blue-box .content p {
+  color: #eee;
+}
+.blue-box button {
+  color: #eee;
+  font-size: 18px;
+  padding: 5px 20px;
+  border-radius: 5px;
+  border: 1px solid white;
+  background-color: transparent;
+}
